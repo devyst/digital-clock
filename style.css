@@ -114,5 +114,12 @@
     .container {
         width: 90%;
     }
+    
+    .container::before {
+        left: 100px;
+    }
 
+    .container::after {
+        right: 100px;
+    }
 }
